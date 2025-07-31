@@ -1,0 +1,82 @@
+* {
+font-family: "JetBrainsMono Nerd Font";
+font-size: 13px;
+border: none;
+border-radius: 0;
+min-height: 0;
+}
+
+window#waybar {
+    background: rgba(26, 27, 38, 0.9);
+    color: #c0caf5;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#workspaces button {
+padding: 0 10px;
+background: transparent;
+color: #565f89;
+border-radius: 5px;
+transition: all 0.3s ease;
+}
+
+#workspaces button.focused {
+background: #7aa2f7;
+color: #1a1b26;
+box-shadow: 0 2px 10px rgba(122, 162, 247, 0.5);
+}
+
+#workspaces button:hover {
+background: rgba(122, 162, 247, 0.3);
+color: #c0caf5;
+}
+
+#custom-arch {
+color: #7aa2f7;
+font-size: 16px;
+padding: 0 10px;
+}
+
+#cpu, #memory, #temperature, #custom-pacman, #pulseaudio, #network, #idle_inhibitor, #custom-gamemode, #custom-keybinds {
+background: rgba(122, 162, 247, 0.1);
+padding: 0 12px;
+margin: 0 2px;
+border-radius: 5px;
+}
+
+#custom-gamemode {
+transition: all 0.3s ease;
+}
+
+#custom-keybinds {
+color: #bb9af7;
+}
+
+#custom-keybinds:hover {
+background: rgba(187, 154, 247, 0.2);
+color: #bb9af7;
+}
+
+#pulseaudio.muted {
+background: rgba(247, 118, 142, 0.2);
+color: #f7768e;
+}
+
+#network.disconnected {
+background: rgba(247, 118, 142, 0.2);
+color: #f7768e;
+}
+
+#idle_inhibitor.activated {
+background: rgba(158, 206, 106, 0.2);
+color: #9ece6a;
+}
+
+#custom-power {
+background: #f7768e;
+color: #1a1b26;
+padding: 0 12px;
+border-radius: 5px;
+margin-left: 5px;
+}

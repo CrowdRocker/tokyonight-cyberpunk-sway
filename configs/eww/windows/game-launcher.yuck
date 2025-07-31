@@ -1,0 +1,39 @@
+(defwindow game-launcher
+  :monitor 0
+  :geometry (geometry :x "50%"
+                      :y "50%"
+                      :width "600px"
+                      :height "400px"
+                      :anchor "center")
+  :stacking "overlay"
+  :windowtype "dialog"
+
+  (box :class "game-launcher"
+       :orientation "v"
+       :space-evenly false
+
+    (box :class "launcher-header"
+         (label :text "🎮 Game Launcher"
+                :class "launcher-title"))
+
+    (box :class "game-grid"
+         :orientation "h"
+         :space-evenly true
+
+      (button :class "game-btn steam"
+              :onclick "steam &"
+              (box :orientation "v"
+                   (label :text "🎮" :class "game-icon")
+                   (label :text "Steam" :class "game-name")))
+
+      (button :class "game-btn lutris"
+              :onclick "lutris &"
+              (box :orientation "v"
+                   (label :text "🍷" :class "game-icon")
+                   (label :text "Lutris" :class "game-name")))
+
+      (button :class "game-btn heroic"
+              :onclick "heroic &"
+              (box :orientation "v"
+                   (label :text "🏛️" :class "game-icon")
+                   (label :text "Heroic" :class "game-name"))))))

@@ -42,13 +42,13 @@
 
 ### One-Line Install
 ```bash
-git clone https://github.com/CrowdRocker/tokyonight-cyberpunk-sway.git && cd tokyonight-cyberpunk-sway && chmod +x install.sh && ./install.sh
+git clone https://github.com/yourusername/tokyonight-cyberpunk-sway.git && cd tokyonight-cyberpunk-sway && chmod +x install.sh && ./install.sh
 ```
 
 ### Manual Installation
 ```bash
 # Clone the repository
-git clone https://github.com/CrowdRocker/tokyonight-cyberpunk-sway.git
+git clone https://github.com/yourusername/tokyonight-cyberpunk-sway.git
 cd tokyonight-cyberpunk-sway
 
 # Make install script executable
@@ -204,6 +204,6 @@ If you like this project, consider:
 
 **Made with 💜 for the Linux gaming community**
 
-[Report Bug](https://github.com/CrowdRocker/tokyonight-cyberpunk-sway/issues) • [Request Feature](https://github.com/CrowdRocker/tokyonight-cyberpunk-sway/issues) • [Discussions](https://github.com/CrowdRocker/tokyonight-cyberpunk-sway/discussions)
+[Report Bug](https://github.com/yourusername/tokyonight-cyberpunk-sway/issues) • [Request Feature](https://github.com/yourusername/tokyonight-cyberpunk-sway/issues) • [Discussions](https://github.com/yourusername/tokyonight-cyberpunk-sway/discussions)
 
 </div>

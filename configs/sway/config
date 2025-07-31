@@ -1,0 +1,40 @@
+# TokyoNight variables
+set $bg #1a1b26
+set $fg #c0caf5
+set $br #565f89
+set $in #414868
+set $ac #7aa2f7
+set $ur #f7768e
+
+# SwayFX specific settings
+blur enable
+blur_xray disable
+blur_passes 2
+blur_radius 3
+corner_radius 10
+shadows enable
+shadow_blur_radius 20
+shadow_color #000000AA
+
+# Gaps and borders
+gaps inner 8
+gaps outer 4
+default_border pixel 2
+default_floating_border pixel 2
+
+# Window colors
+client.focused $ac $ac $fg $ac $ac
+client.focused_inactive $br $br $fg $br $br
+client.unfocused $bg $bg $fg $bg $bg
+client.urgent $ur $ur $fg $ur $ur
+
+# Autostart applications
+exec waybar
+exec azote --restore
+exec swaybg -i ~/.config/wallpapers/tokyonight-city.jpg
+exec_always nwg-dock
+exec autotiling
+
+# Key bindings
+bindsym $mod+Shift+g exec gamemode-toggle
+bindsym $mod+k exec ~/.config/scripts/keybinds.sh
